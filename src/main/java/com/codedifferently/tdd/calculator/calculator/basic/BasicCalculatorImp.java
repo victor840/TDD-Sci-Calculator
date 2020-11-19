@@ -38,11 +38,15 @@ public class BasicCalculatorImp implements Calculator {
     }
 
     protected Double divide(Double input) {
-        return null;
+        Double division = memory.recallCurrentValue() / input;
+        memory.setCurrentValue(division);
+        return division;
     }
 
     protected Double sq(Double input) {
-        return null;
+        Double squared = memory.recallCurrentValue();
+        memory.setCurrentValue(squared);
+        return squared;
     }
 
     protected Double sqrt(Double input) {

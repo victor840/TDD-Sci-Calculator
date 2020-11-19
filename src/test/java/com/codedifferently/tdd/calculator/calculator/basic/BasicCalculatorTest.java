@@ -41,5 +41,20 @@ public class BasicCalculatorTest {
     @Test
     public void divideTest(){
         BasicCalculatorImp basicCalc = new BasicCalculatorImp();
+        basicCalc.memory.setCurrentValue(12.0);
+        Double expected = 2.0;
+        Double actual = basicCalc.divide(6.0);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void sqTest(){
+        BasicCalculatorImp basicCalc = new BasicCalculatorImp():
+        basicCalc.memory.setCurrentValue(4.0);
+        Double expected = 16.0;
+        Double actual = basicCalc.sq(4.0);
+
+        Assert.assertEquals(expected, actual);
     }
 }
