@@ -37,4 +37,9 @@ public class BasicCalculatorTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void divideTest(){
+        BasicCalculatorImp basicCalc = new BasicCalculatorImp();
+    }
 }
