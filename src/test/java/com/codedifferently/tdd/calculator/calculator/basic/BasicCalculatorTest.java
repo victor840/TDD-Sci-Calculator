@@ -50,10 +50,20 @@ public class BasicCalculatorTest {
 
     @Test
     public void sqTest(){
-        BasicCalculatorImp basicCalc = new BasicCalculatorImp():
+        BasicCalculatorImp basicCalc = new BasicCalculatorImp();
         basicCalc.memory.setCurrentValue(4.0);
         Double expected = 16.0;
         Double actual = basicCalc.sq(4.0);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void sqrtTest(){
+        BasicCalculatorImp basicCalc = new BasicCalculatorImp();
+        basicCalc.memory.setCurrentValue(25.0);
+        Double expected = 5.0;
+        Double actual = basicCalc.sqrt(25.0);
 
         Assert.assertEquals(expected, actual);
     }

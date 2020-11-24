@@ -44,12 +44,21 @@ public class BasicCalculatorImp implements Calculator {
     }
 
     protected Double sq(Double input) {
-        Double squared = memory.recallCurrentValue();
-        memory.setCurrentValue(squared);
+        if (memory.recallCurrentValue() == 0){
+            Double squared = Math.pow(input, 2);
+            memory.setCurrentValue(squared);
+        }
+        Double squared = Math.pow(memory.recallCurrentValue(), 2);
         return squared;
     }
 
     protected Double sqrt(Double input) {
-        return null;
+        if(memory.recallCurrentValue() == 0){
+            Double sqRoot = Math.sqrt(input); // did not work with "sqrt" function had to switch it to Math.sqrt for it to work
+            //stated that it was a "Recursive call"
+            memory.setCurrentValue(sqRoot);
+        }
+       Double sqRoot = Math.sqrt(memory.recallCurrentValue());
+        return sqRoot;
     }
 }
