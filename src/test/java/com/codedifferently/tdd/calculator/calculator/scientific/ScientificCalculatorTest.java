@@ -4,7 +4,11 @@ import org.junit.Test;
 
 public class ScientificCalculatorTest {
     @Test
-    public void scientificCalculatorTest(){
+    public void logTest(){
+        //Given
+        SciCalculator sciCalculator = new SciCalculator();
+
+
 
     }
 
