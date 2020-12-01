@@ -1,4 +1,4 @@
-package com.codedifferently.tdd.calculator.scientific;
+package com.codedifferently.tdd.calculator.calculator.scientific;
 
 import org.junit.Test;
 

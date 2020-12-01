@@ -1,5 +1,6 @@
-package com.codedifferently.tdd.calculator.calculator.basic;
+package com.codedifferently.tdd.calculator.calculator;
 
+import com.codedifferently.tdd.calculator.calculator.BasicCalculatorImp;
 import org.junit.Assert;
 import org.junit.Test;
 

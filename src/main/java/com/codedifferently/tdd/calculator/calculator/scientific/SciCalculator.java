@@ -1,7 +1,7 @@
 package com.codedifferently.tdd.calculator.calculator.scientific;
 
 import com.codedifferently.tdd.calculator.CurrentUnitsMode;
-import com.codedifferently.tdd.calculator.calculator.basic.BasicCalculatorImp;
+import com.codedifferently.tdd.calculator.calculator.BasicCalculatorImp;
 import com.codedifferently.tdd.calculator.calculator.memory.Memory;
 import com.codedifferently.tdd.calculator.calculator.memory.MemoryImplementation;
 
